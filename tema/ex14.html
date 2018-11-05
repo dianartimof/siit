@@ -1,0 +1,46 @@
+<!Doctype html>
+<head>
+
+	<script>
+
+		function prodPositiveNr(arr) {
+			var prod=1;
+			var a=arr[i];
+			for(var i=0; i<arr.length; i++) {
+				if(arr[i]>0 ){
+				prod=prod*arr[i];
+				}
+			}
+				return prod;
+		}
+
+
+
+		function prodNegativeNr(arr) {
+       	var prod=1;
+      		 if(prodPositiveNr(arr)===1) {
+      			 return 0;
+      		 }
+   	    }
+
+
+
+		function prodPositiveFin(arr){
+			var prod=1;
+				if(prodPositiveNr(arr)>1) {
+					return prodPositiveNr(arr);
+				}
+			return prodNegativeNr(arr);
+		}
+
+
+		console.log(prodPositiveFin([-5,-3, 1, 3, 2]));
+
+	</script>
+
+</head>
+
+<body>
+</body>
+
+</html>
