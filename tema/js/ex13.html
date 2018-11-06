@@ -1,0 +1,28 @@
+<!Doctype html>
+
+<head>
+
+	<script>
+
+		function sameNr(arr) {
+			   for(i=0; i<arr.length; i++) {
+			        for(j=i+1; j<arr.length; j++) {
+				              if(arr[i]===arr[j]){
+					  return "duplicate";
+				    }
+			    }
+            }
+            return "not duplicate";
+        }
+        console.log(sameNr([2,2,5,6,7,8,9]));
+		    console.log(sameNr([6,7,8,9]));
+
+
+	</script>
+
+</head>
+
+<body>
+</body>
+
+</html>
